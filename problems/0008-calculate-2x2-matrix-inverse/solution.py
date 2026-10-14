@@ -5,7 +5,7 @@ up with an explicit function for the inverse 2x2 matrix. For that, we'll need
 the square of the matrix, the trace and the determinant. As these functions we're
 not developed yet, we'll define them inside the inverse function.
 
-By Cailey-Hamilton theorem after developing the characteristic polynom we have:
+By Cayley-Hamilton theorem, after developing the characteristic polynom we have:
     A^-1 = (1/det(A))*(tr(A)*I - A)
 """
 
@@ -48,7 +48,7 @@ def inverse_2x2(matrix: list[list[float]]) -> list[list[float]] | None:
         if (len(matrix_a) != len(matrix_b[0])):
             return []
         else:
-            return [[vector_dot_product(a[j], transpose_matrix(b)[i]) for i in range(len(a))] for j in range(len(transpose_matrix(b)))]
+            return [[vector_dot_product(matrix_a[j], transpose_matrix(matrix_b)[i]) for i in range(len(a))] for j in range(len(transpose_matrix(b)))]
 
     det = matrix_det_2x2(matrix)
     dim = len(matrix)
