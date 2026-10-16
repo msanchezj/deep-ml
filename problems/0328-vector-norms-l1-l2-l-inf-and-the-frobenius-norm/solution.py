@@ -1,3 +1,9 @@
+"""
+I've tried to avoid Numpy as much as possible as, for me, the idea here is to
+refresh algorithmic concepts rather than to blindly use (amazing) mathematics
+libraries
+"""
+
 import numpy as np
 
 def compute_norm(arr: np.ndarray, norm_type: str) -> float:
