@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T08:48:01.863Z",
+  "generated_at": "2026-11-26T11:25:15.965Z",
   "items": {
     "problem:1": {
       "kind": "problem",
@@ -221,6 +221,19 @@
       "last_pushed_at": "2026-11-26T08:48:01.228Z",
       "language": "python",
       "lines": 5
+    },
+    "problem:1268": {
+      "kind": "problem",
+      "id": "1268",
+      "title": "Tensor Puzzle: Ones Vector from First Principles",
+      "difficulty": "easy",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/problems/1268",
+      "path": "problems/1268-tensor-puzzle-ones-vector-from-first-principles",
+      "first_solved_at": "2026-11-26T11:25:15.289Z",
+      "last_pushed_at": "2026-11-26T11:25:15.289Z",
+      "language": "python",
+      "lines": 7
     }
   }
 }
